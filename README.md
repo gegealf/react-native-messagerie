@@ -12,7 +12,7 @@ simple application de messagerie
   
   . Android Studio (=> AVD Manager) pour émuler un device Android
  
-# Installation:
+# Installation initiale:
   . pour pouvoir utiliser les outils du framework expo :
 
         $ npm install --global expo-cli
@@ -56,6 +56,26 @@ simple application de messagerie
         $ expo start
 
   . une page s'ouvre dans le navigateur: http://localhost:19002/ puis cliquer sur 'Run on Android device/emulator' ou 'Run in web browser' 
+
+# Pour héberger le projet sur github:
+  . 1-créer un dépôt vide github "react-native-messagerie" avec vscode (le plus simple) ou Git Bash.
+  
+  . 2-pousser le code du projet sur le dépôt :
+  
+        $ git push
+        
+  . 3-pour retravailler le code, cloner le projet en local :
+  
+        $ git clone git@github.com:gegealf/react-native-messagerie.git
+        
+        $ git branch nouvelle-branche
+        
+        $ git checkout nouvelle-branche
+        
+# Pour utiliser l'application après l'avoir clonée:
+        $ npm install
+        
+        $ expo start
 
 # Technologies associées:
   . javascript + jsx 
